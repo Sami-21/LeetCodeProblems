@@ -72,4 +72,3 @@ output+="IX"
 }
 
  console.log(output)
-"MMMCDXXI"
