@@ -1,4 +1,4 @@
-//using this approche to solve this problem  read => exemple => brute force first => code => testing my solution => code optimization 
+//using this approche to solve this problem  read => exemple => brute force first => code => testing my solution => solution optimization 
 
 //we are given an array of prices for a stock in an ith day . we need to find the maximum profit he can make during those days .
 //exemple prices = [7,1,5,3,6,4] our net profit is 7 .
@@ -8,13 +8,16 @@
 
 
 
-let prices = [7,1,5,3,6,4];
+let prices = [1,2,3,4,5]
 let max_profit =0;
 
 for (let i=0;i<prices.length-1;i++){
     for(let j=i+1;j<prices.length;j++){
         if(prices[i] < prices[j]){
-
+            max_profit+=prices[j]-prices[i]
         }
+        break;
     }
 }
+
+console.log(max_profit)
