@@ -6,6 +6,6 @@ let max_profit=0;
     //         max_profit=Math.max(...prices.slice(i)) -prices[i]
     //     }
     // }
-  
+  Math.max( ...prices.slice(prices.indexOf(Math.min(...prices)))) - Math.min
 
- console.log(Math.max( ...prices.slice(prices.indexOf(Math.min(...prices)))) - Math.min(...prices))
+ console.log( Math.max(...prices) - Math.min(...prices))
