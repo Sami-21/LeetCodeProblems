@@ -21,7 +21,7 @@
 //we are given this array [2,45,78,99,633,1000,1010] and our target is 91 , we notice that our target isn't within our input but if we insert it within our input it index would be 3 (inserted between 78 and 99) so we return 3
 
 
-let nums = [1,3,5,6], target = 5
+let nums = [1,3,5,6], target = 2
 
 const searchInsert = (nums,target) => {
 
