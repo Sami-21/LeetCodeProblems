@@ -1,3 +1,3 @@
 # LeetCodeProblems
 
-I am sharing my solution for leetCode problems
+I am sharing my solutions for leetCode problems
