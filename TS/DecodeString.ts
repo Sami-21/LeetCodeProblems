@@ -35,30 +35,26 @@
 
 
 // let s:string = "3[a]2[bc]";
-let s:string = "3[a2[c]]";
+let s:string = "3[ac]"; // expected output : abccabccabcc
 
 
-const decodeString =(s:string):string => {
-    let output="";
-    for(let i:number=0;i<s.length;i++){
-        let factor:string="";
-        let substring:string="";
-        while(s[i].match(/\d/g)){
-            factor+=s[i];
-            i++;
-        }
-        if(s[i]==="["){
-            i++;
-            while(s[i]!=="]"){
-                substring+=s[i];
+const decodeString =(s:string,i:number):string => {
+   
+    let output:string = "", factor:string="";
+
+    while(i < s.length && s[i] != ']') {                
+            while(s[i].match(/\d/)){
+                factor+=s[i];
                 i++;
             }
-        }
-        if(s[i]==="]"){
-            output+=substring.repeat(parseInt(factor));
-        }
-    }   
-   return output;
+            if(s[i]==="[") i++;
+            let r:string=decodeString(s,i);
+            while(i<s.length && s[i].match(/[a-z]/)){
+                 r+=s[i++];
+            }
+                    output+=r.repeat(parseInt(factor));                                       
+        }       
+    
+    return output;
 }
-
-    console.log(decodeString(s));
+    console.log(decodeString(s,0));

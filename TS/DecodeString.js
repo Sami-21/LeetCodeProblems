@@ -24,29 +24,23 @@
 // while it is a digit ---------------------------------
 // append it to a empty string                         .
 // end while--------------------------------------------
-var s = "3[a]2[bc]";
-var decodeString = function (s) {
-    var output = "";
-    for (var i = 0; i < s.length; i++) {
-        var factor = "";
-        var substring = "";
-        while (s[i].match(/\d/g)) {
-            console.log("fuck1");
+// let s:string = "3[a]2[bc]";
+var s = "3[ac]"; // expected output : abccabccabcc
+var decodeString = function (s, i) {
+    var output = "", factor = "";
+    while (i < s.length && s[i] != ']') {
+        while (parseInt(s[i])) {
             factor += s[i];
             i++;
         }
-        if (s[i] === "[") {
+        if (s[i] === "[")
             i++;
-            console.log("fuck2");
-            while (s[i] !== "]") {
-                substring += s[i];
-                i++;
-            }
+        var r = decodeString(s, i);
+        while (i < s.length && s[i].match(/[a-z]/)) {
+            r += s[i++];
         }
-        if (s[i] === "]") {
-            output += substring.repeat(parseInt(factor));
-        }
+        output += r.repeat(parseInt(factor));
     }
     return output;
 };
-console.log(decodeString(s));
+console.log(decodeString(s, 0));
