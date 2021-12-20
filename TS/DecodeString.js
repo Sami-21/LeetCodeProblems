@@ -29,7 +29,7 @@ var s = "3[ac]"; // expected output : abccabccabcc
 var decodeString = function (s, i) {
     var output = "", factor = "";
     while (i < s.length && s[i] != ']') {
-        while (parseInt(s[i])) {
+        while (s[i].match(/\d/)) {
             factor += s[i];
             i++;
         }
