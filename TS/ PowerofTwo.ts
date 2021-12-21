@@ -37,4 +37,4 @@ const  isPowerOfTwo=(n: number): boolean => {
     }
     return false;
 };
-console.log(isPowerOfTwo(n))
+console.log(isPowerOfTwo(n));
