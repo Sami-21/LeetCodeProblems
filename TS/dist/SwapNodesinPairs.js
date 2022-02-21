@@ -19,18 +19,20 @@
 // We can simply swap the first pair in the linked list ( which means the 2nd -> 1st -> rest of the list ) and then we call the same function to do the same thing to the rest of the list (swap the first pair and call itself for the rest of list ) .
 // We add an exit case when we have only one element is the list we return the element and when the list is empty we return null .   
 //----------------------------Step 9----------------------------//
-var ListNode = /** @class */ (function () {
+var ListNode = /** @class */ (function() {
     function ListNode(val, next) {
         this.val = (val === undefined ? 0 : val);
         this.next = (next === undefined ? null : next);
     }
     return ListNode;
 }());
-var swapPairs = function (head) {
+var swapPairs = function(head) {
     if (head === null || head.next === null)
         return head;
-    var FirstNode = head, SecondNode = head.next, thirdNode = SecondNode.next;
+    var FirstNode = head,
+        SecondNode = head.next,
+        thirdNode = SecondNode.next;
     SecondNode.next = FirstNode;
     FirstNode = swapPairs(thirdNode);
-    return head;
+    return SecondNode;
 };
