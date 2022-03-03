@@ -47,7 +47,7 @@ const IsSubsequence =(s:string , t:string):boolean  => {
         if(s[counter] === t[j]) counter-=-1;
     }
 
-    if(counter === s.length) return true;
+    if(counter === s.length ) return true;
 
     return false;
 }
