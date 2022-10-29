@@ -1,7 +1,6 @@
 function isHappy(n: number): boolean {
     let previousResult:any = {};
     let sum:number = n;
-    console.log(sum);
     while(sum!==1){
         sum = sum.toString().split("").map((el) => {
         return parseInt(el);
