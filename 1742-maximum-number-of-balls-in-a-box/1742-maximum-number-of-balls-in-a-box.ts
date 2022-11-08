@@ -4,7 +4,7 @@ function countBalls(lowLimit: number, highLimit: number): number {
     let digitSum:number;
 
     for(let i:number=lowLimit;i<highLimit+1;i++){
-        digitSum = i.toString().split('').map((char) => {return parseInt(char);}).reduce((total,num) =>{ return total + num;});
+        digitSum = i.toString().split('').reduce((total,num) =>{ return total + Number(num);},0);
         if(ballCount[digitSum]){
             ballCount[digitSum]++;   
         }else{
