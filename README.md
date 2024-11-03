@@ -17,12 +17,14 @@ I am sharing my solutions for leetCode problems
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -30,6 +32,7 @@ I am sharing my solutions for leetCode problems
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Array
 |  |
 | ------- |
@@ -42,4 +45,5 @@ I am sharing my solutions for leetCode problems
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0501-find-mode-in-binary-search-tree) |
 <!---LeetCode Topics End-->
