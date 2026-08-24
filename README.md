@@ -40,6 +40,7 @@ I am sharing my solutions for leetCode problems
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/Sami-21/LeetCodeProblems/tree/main/0014-longest-common-prefix/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Sami-21/LeetCodeProblems/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Sami-21/LeetCodeProblems/tree/master/2195-time-needed-to-buy-tickets) |
@@ -75,4 +76,9 @@ I am sharing my solutions for leetCode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/Sami-21/LeetCodeProblems/tree/main/0013-roman-to-integer/) | Easy |
+| [0014-longest-common-prefix](https://github.com/Sami-21/LeetCodeProblems/tree/main/0014-longest-common-prefix/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/Sami-21/LeetCodeProblems/tree/main/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
