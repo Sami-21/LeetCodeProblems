@@ -71,6 +71,7 @@ I am sharing my solutions for leetCode problems
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/Sami-21/LeetCodeProblems/tree/main/0002-add-two-numbers/) | Medium |
 | [0013-roman-to-integer](https://github.com/Sami-21/LeetCodeProblems/tree/main/0013-roman-to-integer/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -81,4 +82,12 @@ I am sharing my solutions for leetCode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/Sami-21/LeetCodeProblems/tree/main/0014-longest-common-prefix/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0002-add-two-numbers](https://github.com/Sami-21/LeetCodeProblems/tree/main/0002-add-two-numbers/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0002-add-two-numbers](https://github.com/Sami-21/LeetCodeProblems/tree/main/0002-add-two-numbers/) | Medium |
 <!---LeetCode Topics End-->
