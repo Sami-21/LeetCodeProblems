@@ -41,6 +41,7 @@ I am sharing my solutions for leetCode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/Sami-21/LeetCodeProblems/tree/main/0014-longest-common-prefix/) | Easy |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sami-21/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Sami-21/LeetCodeProblems/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Sami-21/LeetCodeProblems/tree/master/2195-time-needed-to-buy-tickets) |
@@ -92,4 +93,8 @@ I am sharing my solutions for leetCode problems
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Sami-21/LeetCodeProblems/tree/main/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/Sami-21/LeetCodeProblems/tree/main/0021-merge-two-sorted-lists/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sami-21/LeetCodeProblems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 <!---LeetCode Topics End-->
