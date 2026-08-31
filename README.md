@@ -93,6 +93,7 @@ I am sharing my solutions for leetCode problems
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Sami-21/LeetCodeProblems/tree/main/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/Sami-21/LeetCodeProblems/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Sami-21/LeetCodeProblems/tree/main/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
