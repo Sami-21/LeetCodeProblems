@@ -6,33 +6,45 @@
  * }
  */
 func nodesBetweenCriticalPoints(head *ListNode) []int {
-    counter := 1;
-    indexes := []int{};
-    current := head.Next;
-    previousNode := head;
+    current := head.Next
+    previousNode := head
+    index :=1
+
+    firstCritical := -1
+    previousCritical := -1
+    minDistance := -1
+
     for current.Next != nil {
-        nextNode := current.Next;
-        if current.Val > nextNode.Val && current.Val > previousNode.Val {
-            indexes = append(indexes,counter);
+        nextNode := current.Next
+
+        isCritical :=
+            (current.Val > previousNode.Val && current.Val > nextNode.Val) ||
+            (current.Val < previousNode.Val && current.Val < nextNode.Val)
+
+        if isCritical {
+            if firstCritical == -1 {
+                firstCritical = index
+            } else {
+                distance := index - previousCritical
+
+                if minDistance == -1 || distance < minDistance {
+                    minDistance = distance
+                }
+            }
+
+            previousCritical = index
         }
-        if current.Val < nextNode.Val && current.Val < previousNode.Val {
-            indexes = append(indexes,counter);
-        } 
-        counter++;
-        previousNode = current;
-        current =  nextNode;
+
+        previousNode = current
+        current = nextNode
+        index++
     }
 
-    if len(indexes) > 1 {
-        min := indexes[1] - indexes[0];
-        for i := 1 ; i < len(indexes) - 1 ; i++ {
-            possibleMin := indexes[i+1] - indexes[i];
-            if min > possibleMin {
-                min = possibleMin;
-            }
-        }
-        max :=  indexes[len(indexes)-1] - indexes[0];
-        return []int{min, max};
+    if minDistance == -1 {
+        return []int{-1, -1}
     }
-    return []int{-1,-1};
+
+    maxDistance := previousCritical - firstCritical
+
+    return []int{minDistance,maxDistance};
 }
