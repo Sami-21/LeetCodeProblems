@@ -45,6 +45,7 @@ I am sharing my solutions for leetCode problems
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Sami-21/LeetCodeProblems/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Sami-21/LeetCodeProblems/tree/master/2195-time-needed-to-buy-tickets) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Sami-21/LeetCodeProblems/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -76,6 +77,7 @@ I am sharing my solutions for leetCode problems
 | [0002-add-two-numbers](https://github.com/Sami-21/LeetCodeProblems/tree/main/0002-add-two-numbers/) | Medium |
 | [0013-roman-to-integer](https://github.com/Sami-21/LeetCodeProblems/tree/main/0013-roman-to-integer/) | Easy |
 | [0067-add-binary](https://github.com/Sami-21/LeetCodeProblems/tree/main/0067-add-binary/) | Easy |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Sami-21/LeetCodeProblems/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
