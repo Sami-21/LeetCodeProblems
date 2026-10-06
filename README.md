@@ -10,6 +10,7 @@ I am sharing my solutions for leetCode problems
 | [0094-binary-tree-inorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sami-21/LeetCodeProblems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sami-21/LeetCodeProblems/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Sami-21/LeetCodeProblems/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Tree
 | Problem Name | Difficulty |
@@ -86,6 +87,7 @@ I am sharing my solutions for leetCode problems
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sami-21/LeetCodeProblems/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0058-length-of-last-word](https://github.com/Sami-21/LeetCodeProblems/tree/main/0058-length-of-last-word/) | Easy |
 | [0067-add-binary](https://github.com/Sami-21/LeetCodeProblems/tree/main/0067-add-binary/) | Easy |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sami-21/LeetCodeProblems/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -126,4 +128,12 @@ I am sharing my solutions for leetCode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/Sami-21/LeetCodeProblems/tree/main/0067-add-binary/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sami-21/LeetCodeProblems/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sami-21/LeetCodeProblems/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 <!---LeetCode Topics End-->
