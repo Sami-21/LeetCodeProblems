@@ -136,4 +136,8 @@ I am sharing my solutions for leetCode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sami-21/LeetCodeProblems/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0176-second-highest-salary](https://github.com/Sami-21/LeetCodeProblems/tree/main/0176-second-highest-salary/) | Medium |
 <!---LeetCode Topics End-->
