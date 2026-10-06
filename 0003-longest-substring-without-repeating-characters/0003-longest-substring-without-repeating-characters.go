@@ -1,16 +1,18 @@
 func lengthOfLongestSubstring(s string) int {
     maxLength := 0 
     chars := NewRuneSet()
-
-    for i := 0 ; i < len(s) ; i++ {
-        for j := i ; j < len(s) ; j++ {
-            if chars.Contains(rune(s[j])){
-                break
+    right := 0
+    left := 0  
+    for right < len(s)  {
+        if chars.Contains(rune(s[right])){
+            for chars.Contains(rune(s[right])) {
+                chars.Remove(rune(s[left]))
+                left++
             }
-            chars.Add(rune(s[j]))
-        } 
-        maxLength = max(maxLength,len(chars.items))
-        chars.Clear()
+        }
+        chars.Add(rune(s[right]))
+        maxLength = max(maxLength,chars.Len())
+        right++
     }
 
     return maxLength
@@ -30,11 +32,15 @@ func (s *RuneSet) Add(r rune) {
     s.items[r] = struct{}{}
 }
 
+func (s *RuneSet) Remove(r rune) {
+    delete(s.items, r)
+}
+
 func (s *RuneSet) Contains(r rune) bool {
     _, exists := s.items[r]
     return exists
 }
 
-func (s *RuneSet) Clear() {
-    clear(s.items)
+func (s *RuneSet) Len() int {
+    return len(s.items)
 }
