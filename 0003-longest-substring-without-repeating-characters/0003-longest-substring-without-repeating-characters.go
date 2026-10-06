@@ -1,4 +1,3 @@
-import "fmt"
 func lengthOfLongestSubstring(s string) int {
     maxLength := 0 
     chars := NewRuneSet()
