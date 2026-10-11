@@ -46,6 +46,7 @@ I am sharing my solutions for leetCode problems
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Sami-21/LeetCodeProblems/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Sami-21/LeetCodeProblems/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Sami-21/LeetCodeProblems/tree/master/2195-time-needed-to-buy-tickets) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/Sami-21/LeetCodeProblems/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Sami-21/LeetCodeProblems/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -146,4 +147,8 @@ I am sharing my solutions for leetCode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sami-21/LeetCodeProblems/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2778-sum-of-squares-of-special-elements](https://github.com/Sami-21/LeetCodeProblems/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 <!---LeetCode Topics End-->
